@@ -1,0 +1,94 @@
+/* WP247 Pre-Footer Widgets Styles */
+
+.infinite-scroll.neverending .pre-site-footer {
+	display: none;
+}
+
+.infinity-end.neverending .pre-site-footer{
+	display: block;
+}
+
+.pre-footer-widgets .widget :last-child {
+	margin-bottom:0
+}
+
+.inside-pre-footer-widgets:not(.grid-container):after {
+	content: ".";
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	font-size: 0;
+	line-height: 0;
+	width: 0;
+	height: 0;
+	clear: both;
+}
+
+.inside-pre-footer-widgets .inner-padding {
+	padding: 0 40px;
+}
+
+.pre-footer-widgets {
+	padding: 40px
+}
+
+.site-pre-footer-widgets .pre-footer-widgets-container .inner-padding {
+	padding: 0 0 0 40px;
+}
+
+.site-pre-footer .pre-footer-widgets-container .inside-pre-footer-widgets {
+	margin-left: -40px;
+}
+
+.pre-footer-widgets .widget {
+	font-size: 17px;
+}
+
+@media (max-width: 768px) {
+
+	.inside-pre-footer-widgets > div {
+		float: none;
+		width: 100%;
+		left: 0;
+		right: 0;
+	}
+
+	.inside-pre-footer-widgets > div:not(:last-child) {
+		margin-bottom: 40px;
+	}
+
+	.site-pre-footer-widgets .pre-footer-widgets .pre-footer-widgets-container .inside-pre-footer-widgets {
+		margin: 0;
+	}
+
+	.site-pre-footer-widgets .pre-footer-widgets .pre-footer-widgets-container .inner-padding {
+		padding: 0;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+
+	/* GP specific grid */
+	.inside-pre-footer-widgets > div {
+		margin-bottom: 50px;
+	}
+
+	.inside-pre-footer-widgets > div:nth-child(odd) {
+		clear: both;
+	}
+
+	.active-pre-footer-widgets-1 .pre-footer-widget-1,
+	.active-pre-footer-widgets-3 .pre-footer-widget-3,
+	.active-pre-footer-widgets-5 .pre-footer-widget-5 {
+		width: 100%;
+		margin-bottom: 0;
+	}
+
+	.active-pre-footer-widgets-2 .inside-pre-footer-widgets > div,
+	.active-pre-footer-widgets-4 .pre-footer-widget-3,
+	.active-pre-footer-widgets-4 .pre-footer-widget-4 {
+		margin-bottom: 0;
+	}
+
+}

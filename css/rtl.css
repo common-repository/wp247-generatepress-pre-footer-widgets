@@ -1,0 +1,9 @@
+/* WP247 Pre-Footer Widgets RTL Styles */
+
+@media (min-width: 768px) {
+
+	.inside-pre-footer-widgets > div {
+		float: right;
+	}
+
+}

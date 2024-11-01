@@ -1,0 +1,24 @@
+/* WP247 Pre-Footer Widgets Mobile Styles */
+
+@media (max-width: 768px) {
+
+	.inside-pre-footer-widgets > div {
+		float: none;
+		width: 100%;
+		left: 0;
+		right: 0;
+	}
+
+	.inside-pre-footer-widgets > div:not(:last-child) {
+		margin-bottom: 40px;
+	}
+
+	.site-footer .pre-footer-widgets .pre-footer-widgets-container .inside-pre-footer-widgets {
+		margin: 0;
+	}
+
+	.site-footer .pre-footer-widgets .pre-footer-widgets-container .inner-padding {
+		padding: 0;
+	}
+
+}

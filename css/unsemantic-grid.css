@@ -1,0 +1,27 @@
+/* WP247 Pre-Footer Widgets Unsemantic Styles */
+
+@media (min-width: 768px) and (max-width: 1025px) {
+
+	/* GP specific grid */
+	.inside-pre-footer-widgets > div {
+		margin-bottom: 50px;
+	}
+
+	.inside-pre-footer-widgets > div:nth-child(odd) {
+		clear: both;
+	}
+
+	.active-pre-footer-widgets-1 .pre-footer-widget-1,
+	.active-pre-footer-widgets-3 .pre-footer-widget-3,
+	.active-pre-footer-widgets-5 .pre-footer-widget-5 {
+		width: 100%;
+		margin-bottom: 0;
+	}
+
+	.active-pre-footer-widgets-2 .inside-pre-footer-widgets > div,
+	.active-pre-footer-widgets-4 .pre-footer-widget-3,
+	.active-pre-footer-widgets-4 .pre-footer-widget-4 {
+		margin-bottom: 0;
+	}
+
+}
